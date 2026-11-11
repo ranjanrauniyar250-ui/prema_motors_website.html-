@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prema Motors, Pokhariya-4 — automobile spare parts trading and supply for all major vehicle brands.">
+  <title>Prema Motors | Automobile Spare Parts</title>
+  <style>
+    :root{--navy:#10243a;--blue:#1267b1;--red:#e33b3b;--ink:#182536;--muted:#64748b;--light:#f3f6fa;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:var(--navy);color:white;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #0002}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:21px}
+    .logo{width:42px;height:42px;border-radius:11px;background:var(--red);display:grid;place-items:center;font-size:22px}
+    nav{display:flex;gap:22px;align-items:center;font-size:14px}nav a:hover{color:#ffb5b5}
+    .btn{display:inline-block;padding:12px 19px;border-radius:8px;background:var(--red);color:#fff;font-weight:700;border:0;cursor:pointer}
+    .btn.secondary{background:var(--blue)}.hero{background:linear-gradient(115deg,#0b1c2eeb,#10243ad9),radial-gradient(circle at 80% 20%,#2879b8,#10243a);color:#fff;padding:82px 0}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:38px;align-items:center}.eyebrow{color:#ffb5b5;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+    h1{font-size:clamp(36px,5vw,58px);line-height:1.1;margin:13px 0 18px}.hero p{font-size:18px;color:#dbe6f1;max-width:620px}
+    .hero-panel{background:#ffffff12;border:1px solid #ffffff35;border-radius:18px;padding:28px;backdrop-filter:blur(5px)}
+    .hero-panel strong{font-size:20px}.brand-tags{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0}.tag{padding:7px 12px;border:1px solid #ffffff55;border-radius:30px;font-size:13px}
+    section{padding:68px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 35px}.section-head h2{font-size:32px;margin:0 0 8px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:24px;border:1px solid #e5eaf0;border-radius:14px;background:#fff;box-shadow:0 8px 24px #10243a0a}
+    .icon{width:48px;height:48px;border-radius:12px;background:#eaf3fc;color:var(--blue);display:grid;place-items:center;font-size:24px;margin-bottom:14px}.card h3{margin:0 0 7px;color:var(--navy)}.card p{margin:0;color:var(--muted);font-size:14px}
+    .brands{background:var(--light)}.brand-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.brand-box{background:#fff;border:1px solid #e5eaf0;border-radius:10px;padding:18px 8px;text-align:center;font-weight:700;color:var(--navy)}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about-box{background:var(--navy);color:white;padding:32px;border-radius:16px}.about-box p{color:#d5e0eb}
+    .contact{background:var(--light)}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:25px}.contact-info,.contact-form{background:#fff;padding:28px;border:1px solid #e5eaf0;border-radius:14px}
+    .info-line{margin:17px 0}.info-line small{display:block;color:var(--muted)}input,textarea,select{width:100%;padding:13px;border:1px solid #d8e0e8;border-radius:8px;margin:7px 0 13px;font:inherit}textarea{min-height:110px;resize:vertical}label{font-size:14px;font-weight:700}
+    footer{background:#0b1c2e;color:#dbe6f1;padding:26px 0;text-align:center;font-size:13px}.mobile-cta{display:none}
+    @media(max-width:760px){.nav{flex-wrap:wrap}nav{width:100%;justify-content:space-between;gap:10px;font-size:12px}.hero{padding:58px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.brand-grid{grid-template-columns:repeat(3,1fr)}section{padding:52px 0}.mobile-cta{display:block;position:fixed;bottom:12px;left:4%;width:92%;z-index:20;text-align:center;box-shadow:0 5px 20px #0003}footer{padding-bottom:85px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="logo">⚙</span><span>PREMA MOTORS<small style="display:block;font-size:10px;font-weight:500;letter-spacing:1.5px;color:#cbd8e5">AUTO SPARE PARTS</small></span></a>
+    <nav><a href="#home">Home</a><a href="#products">Products</a><a href="#brands">Brands</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <a class="btn" href="#contact">Get a Quote</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div><div class="eyebrow">Your trusted auto parts supplier</div>
+        <h1>Quality Auto Spare Parts. Reliable Supply.</h1>
+        <p>Prema Motors supplies automobile spare parts for multiple vehicle brands. Contact us for product availability, genuine/OEM options, pricing and bulk orders.</p>
+        <a class="btn" href="#contact">Request Parts & Pricing</a>
+        <a class="btn secondary" style="margin-left:8px" href="https://wa.me/9779815216125" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+      <div class="hero-panel"><strong>PREMA MOTORS</strong><p style="margin:5px 0 0">Automobile Spare Parts Trading</p>
+        <div class="brand-tags"><span class="tag">Hyundai</span><span class="tag">Ford</span><span class="tag">Kia</span><span class="tag">Maruti Suzuki</span><span class="tag">Tata</span><span class="tag">Mahindra</span><span class="tag">And more</span></div>
+        <p style="font-size:14px;margin-bottom:0">📍 Pokhariya-4, Parsa, Nepal<br>📞 9815216125</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products"><div class="wrap">
+    <div class="section-head"><h2>Our Product Categories</h2><p>Tell us your vehicle model and required part. We’ll help you check availability and price.</p></div>
+    <div class="cards">
+      <article class="card"><div class="icon">🔧</div><h3>Engine & Service Parts</h3><p>Oil filters, air filters, fuel filters, belts, spark plugs and regular maintenance items.</p></article>
+      <article class="card"><div class="icon">🛞</div><h3>Brake & Suspension</h3><p>Brake pads, brake shoes, discs, shock absorbers, bushes and suspension components.</p></article>
+      <article class="card"><div class="icon">🔋</div><h3>Electrical Parts</h3><p>Bulbs, sensors, switches, relays, wiring items and other electrical components.</p></article>
+      <article class="card"><div class="icon">🚘</div><h3>Body & Exterior Parts</h3><p>Mirrors, lamps, handles, bumpers, grilles and selected exterior accessories.</p></article>
+      <article class="card"><div class="icon">⚙️</div><h3>Clutch & Transmission</h3><p>Clutch plates, pressure plates, bearings and selected transmission parts.</p></article>
+      <article class="card"><div class="icon">📦</div><h3>Bulk & Trade Supply</h3><p>Parts sourcing and supply inquiries for garages, workshops, retailers and fleet operators.</p></article>
+    </div>
+  </div></section>
+
+  <section class="brands" id="brands"><div class="wrap">
+    <div class="section-head"><h2>Parts for Multiple Brands</h2><p>Share the vehicle make, model, year and part name or OEM number for accurate matching.</p></div>
+    <div class="brand-grid"><div class="brand-box">HYUNDAI</div><div class="brand-box">FORD</div><div class="brand-box">KIA</div><div class="brand-box">MARUTI SUZUKI</div><div class="brand-box">TATA</div><div class="brand-box">MAHINDRA</div></div>
+    <p style="text-align:center;color:#64748b;font-size:13px;margin-top:18px">Other brands and models can also be requested.</p>
+  </div></section>
+
+  <section id="about"><div class="wrap about-grid">
+    <div><div class="eyebrow" style="color:var(--blue)">About our business</div><h2 style="font-size:32px;color:var(--navy);line-height:1.2">Prema Motors — Pokhariya-4</h2>
+      <p>Prema Motors is an automobile spare parts trading business based in Pokhariya-4, Parsa, Nepal. Our goal is to make parts sourcing easier for vehicle owners, mechanics, workshops and business customers.</p>
+      <p>For a quick inquiry, send us the vehicle brand, model, manufacturing year, part name or OEM part number.</p>
+    </div>
+    <div class="about-box"><h3 style="font-size:23px;margin-top:0">How to order</h3><p><b>1.</b> Share your vehicle details.</p><p><b>2.</b> Send the part name, photo or OEM number.</p><p><b>3.</b> Confirm availability, price and delivery details with our team.</p><a class="btn" href="#contact">Contact Prema Motors</a></div>
+  </div></section>
+
+  <section class="contact" id="contact"><div class="wrap">
+    <div class="section-head"><h2>Contact & Parts Inquiry</h2><p>Send your requirement directly to Prema Motors.</p></div>
+    <div class="contact-grid">
+      <div class="contact-info"><h3 style="margin-top:0;color:var(--navy)">Prema Motors</h3>
+        <div class="info-line">📍 <b>Address</b><small>Pokhariya-4, Parsa, Nepal</small></div>
+        <div class="info-line">📞 <b>Phone / WhatsApp</b><small><a href="tel:+9779815216125">+977 9815216125</a></small></div>
+        <div class="info-line">🧰 <b>Business</b><small>Automobile Spare Parts Trading & Supply</small></div>
+        <a class="btn secondary" href="https://wa.me/9779815216125" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <form class="contact-form" id="inquiryForm"><h3 style="margin-top:0;color:var(--navy)">Request a quotation</h3>
+        <label for="name">Your Name</label><input id="name" name="name" placeholder="Enter your name" required>
+        <label for="phone">Phone Number</label><input id="phone" name="phone" placeholder="Your contact number" required>
+        <label for="vehicle">Vehicle Brand & Model</label><input id="vehicle" name="vehicle" placeholder="e.g. Hyundai Creta 2022">
+        <label for="part">Part Name / OEM Part Number</label><input id="part" name="part" placeholder="e.g. Oil filter / OEM code" required>
+        <label for="message">Additional Details</label><textarea id="message" name="message" placeholder="Quantity, photo details or other requirements"></textarea>
+        <button class="btn" type="submit">Send Inquiry on WhatsApp</button>
+      </form>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Prema Motors, Pokhariya-4, Parsa. All rights reserved.</div></footer>
+<a class="btn mobile-cta" href="https://wa.me/9779815216125" target="_blank" rel="noopener">WhatsApp: 9815216125</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('inquiryForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const d = new FormData(this);
+    const msg = `Parts Inquiry - Prema Motors%0AName: ${encodeURIComponent(d.get('name'))}%0APhone: ${encodeURIComponent(d.get('phone'))}%0AVehicle: ${encodeURIComponent(d.get('vehicle'))}%0APart/OEM: ${encodeURIComponent(d.get('part'))}%0ADetails: ${encodeURIComponent(d.get('message'))}`;
+    window.open('https://wa.me/9779815216125?text=' + msg, '_blank');
+  });
+</script>
+</body>
+</html>
